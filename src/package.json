@@ -1,0 +1,16 @@
+{
+  "name": "reggiepearl",
+  "version": "1.0.0",
+  "description": "Site for Reggie Pearl",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matt",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-route": "^1.7.5",
+    "jquery": "^3.3.1"
+  }
+}

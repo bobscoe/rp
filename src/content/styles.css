@@ -1,0 +1,44 @@
+html {
+  min-width: 1200px;
+}
+
+html, body {
+  font-size: 14px;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #22252b;
+  color: #373d47;
+  font-family: "museo-sans", "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+.bg {
+  background-image: url('//d3afybylsojytu.cloudfront.net/test/images/retail/upload/cabi/bc/mx05unh6h7w8nvzho6xg7byf_198337.PNG')
+}
+
+.bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  bottom: 60px;
+  -webkit-filter: blur(23px);
+  -moz-filter: blur(23px);
+  -o-filter: blur(23px);
+  -ms-filter: blur(23px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='23');
+  opacity: 0.3;
+  position: absolute;
+  top: 101px;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  width: 100%;
+  z-index: -5000;
+}
