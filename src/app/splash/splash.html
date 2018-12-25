@@ -1,1 +1,17 @@
-<h1>{{vm.msg}}</h1>
+<br>
+<h1 class="centered">{{vm.msg}}</h1>
+<div class="main-container">
+  <div class="cv-container">
+    <img src="content/img/rp_coverart.jpg">
+  </div>
+  <div class="stream-container">
+    <ul>
+      <li ng-repeat="link in vm.tableData">
+        <a href="{{link.url}}">
+          <div class="retailer-logo retailer-logo-{{link.icon}}"></div>
+          <div class="retailer-verb"><span>{{link.verb}}</span></div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
