@@ -1,5 +1,5 @@
 html {
-  min-width: 1200px;
+  /* min-width: 1200px; */
 }
 
 html, body {
@@ -21,7 +21,7 @@ h1, h2, h3, h4, p {
   color: #fff;
 }
 
-h1 { font-size: 48px; }
+h1 { font-size: 36px; }
 @media screen and (min-width: 800px) {
   h1 { font-size: 28px; }
 }
@@ -73,6 +73,10 @@ h1 { font-size: 48px; }
   width: 60%;
 }
 
+@media screen and (min-width: 800px) {
+  .main-container { width: 80%; }
+}
+
 .cv-container {
   margin-bottom: 30px;
   width: 100%;
@@ -89,13 +93,9 @@ h1 { font-size: 48px; }
 
 @media screen and (min-width: 800px) {
   .cv-container {
-    margin-right: 30px;
-    width: 350px;
+    margin-right: 5%;
+    width: 50%;
     float: left;
-  }
-
-  .cv-container > img {
-    width: 320px;
   }
 }
 
@@ -193,7 +193,11 @@ h1 { font-size: 48px; }
 
 .retailer-logo-am {
   background-image: url('img/ap_m_logo.png');
-  background-size: 150px 50px;
+  background-size: 130px 40px;
+}
+
+@media screen and (min-width: 800px) {
+  .retailer-logo-am { background-size: 150px 50px; }
 }
 
 .retailer-logo-s {
